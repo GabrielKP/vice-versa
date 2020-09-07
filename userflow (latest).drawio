@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T12:57:22.152Z" agent="5.0 (X11)" etag="GpacljHDOXUmFIPPT_4g" version="13.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-09-07T12:59:06.186Z" agent="5.0 (X11)" etag="L-nlwChmyTs0yAnzVWjP" version="13.6.6" type="github" pages="6">
   <diagram id="sVCzi_lUagf4hgPATLQP" name="Old Diagrams">
     <mxGraphModel dx="2377" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1332,7 +1332,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aC33ARPKNdBDLeKjjG60" name="revised-diagram">
-    <mxGraphModel dx="2214" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1970" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="mZd0HvATRs0XCswhsqKQ-0" />
         <mxCell id="mZd0HvATRs0XCswhsqKQ-1" parent="mZd0HvATRs0XCswhsqKQ-0" />
@@ -1471,7 +1471,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CjYkrTAcrpqW22rwyKS3" name="Basic Upvote/Downvote">
-    <mxGraphModel dx="1292" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="pzu39dAlTcETxVCLEfr1-0" />
         <mxCell id="pzu39dAlTcETxVCLEfr1-1" parent="pzu39dAlTcETxVCLEfr1-0" />
@@ -1562,7 +1562,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6Ovv4VE6qm_vKAhSm3lW" name="Choose or Create">
-    <mxGraphModel dx="886" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Jo0F3M7C0bz86tSLN6sX-0" />
         <mxCell id="Jo0F3M7C0bz86tSLN6sX-1" parent="Jo0F3M7C0bz86tSLN6sX-0" />
@@ -1624,7 +1624,7 @@
         <mxCell id="xp8cirdrrTEiQjoM2X4e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;fontSize=6;align=left;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Jo0F3M7C0bz86tSLN6sX-1" source="xp8cirdrrTEiQjoM2X4e-21" target="xp8cirdrrTEiQjoM2X4e-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xp8cirdrrTEiQjoM2X4e-21" value="&lt;div&gt;sort explanations differently&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Jo0F3M7C0bz86tSLN6sX-1">
+        <mxCell id="xp8cirdrrTEiQjoM2X4e-21" value="&lt;div&gt;sort explanations differently&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Jo0F3M7C0bz86tSLN6sX-1">
           <mxGeometry x="450" y="790" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xp8cirdrrTEiQjoM2X4e-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;fontSize=6;align=left;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Jo0F3M7C0bz86tSLN6sX-1" source="xp8cirdrrTEiQjoM2X4e-23" target="xp8cirdrrTEiQjoM2X4e-13">
@@ -1664,7 +1664,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P2oFdk106PpOjH3otsHP" name="Choose and Vote">
-    <mxGraphModel dx="1292" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Jt7dTKZHqMdy6iuLEXla-0" />
         <mxCell id="Jt7dTKZHqMdy6iuLEXla-1" parent="Jt7dTKZHqMdy6iuLEXla-0" />
