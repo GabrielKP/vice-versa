@@ -16,5 +16,9 @@
   },
   "engines": {
     "node": ">=16.2.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   }
 }
