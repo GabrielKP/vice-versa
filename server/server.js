@@ -10,7 +10,7 @@ app.use(express.json());
 
 const PORT=process.env.PORT || 5000;
 
-app.get("/test", (req, res) => {
+app.get("/api/v1", (req, res) => {
     res.json({
         f1: "Welcome to vv API",
     });
