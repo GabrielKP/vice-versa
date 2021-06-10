@@ -8,25 +8,21 @@ services:
       dockerfile: Dockerfile
     container_name: viceversa_package
     depends_on:
-      - mongodb
+      - mongo
     environment:
       NODE_ENV: ${NODE_ENV}
       MONGO_URI: mongodb://${MONGO_ROOT_USERNAME}:${MONGO_ROOT_PASSWORD}@mongodb
     networks:
       - vice-versa-network
 
-  mongodb:
+  mongo:
     image: mongo
     restart: always
-    ports:
-      - 27017:27017
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
-      MONGO_INITDB_DATABASE: ${DB_NAME}
     volumes:
       - mongodb-data:/data/db
-      - ./init-mongo.sh:/docker-entrypoint-initdb.d/init-mongo.sh
     networks:
       - vice-versa-network
 

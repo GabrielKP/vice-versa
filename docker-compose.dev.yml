@@ -13,18 +13,18 @@ services:
     # ports:
     #   - 5000:5000
     depends_on:
-      - mongodb
+      - mongo
     environment:
       NODE_ENV: ${NODE_ENV}
       MONGO_URI: mongodb://${MONGO_ROOT_USERNAME}:${MONGO_ROOT_PASSWORD}@mongodb
     networks:
       - vice-versa-network
 
-  mongodb:
+  mongo:
     image: mongo
     restart: always
-    ports:
-      - 27017:27017
+    # ports:
+    #   - 27017:27017
     environment:
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
@@ -36,7 +36,7 @@ services:
   mongo-express:
     image: mongo-express
     depends_on:
-      - mongodb
+      - mongo
     ports:
       - 8081:8081
     environment:
