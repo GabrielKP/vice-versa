@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login';
+import RoomView from './components/RoomView';
+import { useAuth0 } from '@auth0/auth0-react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. This is it. lmao.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const { isLoading, isAuthenticated } = useAuth0();
+  const vvStyle = {
+    backgroundColor: 'rgb(209, 255, 227)',
+    height: '100vh',
+    minHeight: '100vh'
+  }
+
+  if (isLoading) {
+    return (
+      <div style={vvStyle}>
+        <img src='logo512.png' alt='logo' class='logo'></img>
+      </div>
+    );
+  }
+
+  if (isAuthenticated) {
+    return (
+      <div>
+        <RoomView />
+      </div>
+    );
+  } else {
+    return (
+      <div style={vvStyle}>
+        <Login />
+      </div>
+    )
+  }
 }
 
 export default App;
