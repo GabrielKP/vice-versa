@@ -9,7 +9,7 @@ const Header = () => {
       <Navbar bg="light" className="d-flex py-2 px-4">
         <Navbar.Brand href="/">
           <img
-          src="/vvlogo-512.png"
+          src="/logo512.png"
           width="40"
           height="40"
           className="d-inline-block align-top"
