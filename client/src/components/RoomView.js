@@ -19,7 +19,16 @@ const RoomView = () => {
       >
         <Room />
       </Container>
-      <Button type='submit' onClick={() => logout()}>Log out</Button>
+      <Button
+        type='submit'
+        onClick={() =>
+          logout({
+            returnTo: window.location.origin,
+          })
+        }
+      >
+        Log out
+      </Button>
     </>
   )
 }

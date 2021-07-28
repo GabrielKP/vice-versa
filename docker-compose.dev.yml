@@ -6,7 +6,7 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile.dev
-    container_name: viceversa_package
+    container_name: vice-versa-server-api
     volumes:
       - /app/node_modules
       - ./server:/app
