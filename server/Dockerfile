@@ -5,7 +5,7 @@ LABEL description="Production image for the vice-versa app API"
 
 WORKDIR /app
 
-COPY [ "package.json", "package.json*", "npm-shrinkwrap,json*", "./" ]
+COPY [ "package.json", "package.json*", "npm-shrinkwrap.json*", "./" ]
 
 RUN npm install
 
