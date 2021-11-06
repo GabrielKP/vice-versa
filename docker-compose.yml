@@ -10,12 +10,14 @@ services:
     depends_on:
       - mongo
     environment:
+      DB_NAME: ${DB_NAME}
+      PORT: ${PORT}
       NODE_ENV: ${NODE_ENV}
       MONGO_URI: mongodb://${MONGO_ROOT_USERNAME}:${MONGO_ROOT_PASSWORD}@mongodb
     networks:
       - vice-versa-network
 
-  mongo:
+  mongodb:
     image: mongo
     restart: always
     environment:
